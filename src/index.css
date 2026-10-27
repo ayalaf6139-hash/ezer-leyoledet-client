@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* הגדרות העיצוב של Tailwind (בגרסה 4 הן נכתבות כאן במקום tailwind.config.js): גופנים וצבעי האתר – שמנת, זהב ולבן */
+@theme {
+  --font-sans: "Assistant", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Frank Ruhl Libre", ui-serif, Georgia, serif;
+
+  --color-cream-50: #fffdf7;
+  --color-cream-100: #fdf9ef;
+  --color-cream-200: #f6eedb;
+  --color-cream-300: #eadfc6;
+
+  --color-gold-50: #fbf6e7;
+  --color-gold-100: #f3e3ad;
+  --color-gold-200: #ead39a;
+  --color-gold-300: #d9b864;
+  --color-gold-400: #c9a24a;
+  --color-gold-500: #b8892f;
+  --color-gold-600: #9a7330;
+  --color-gold-700: #7a5518;
+  --color-gold-800: #5a3f12;
+  --color-gold-900: #3a2a10;
+
+  --color-brand: #e2c788;
+
+  --color-ink: #3a2d1c;
+  --color-ink-soft: #8a7860;
+
+  --color-olive-50: #eef2e2;
+  --color-olive-700: #5b7a34;
+}
