@@ -39,8 +39,7 @@ const Register: React.FC = () => {
                 <div className={authFrame} />
                 <img src={logo} alt="עזר ליולדת – מבשלות באהבה · בית השם" className="w-full max-w-md" />
                 <div className="h-px w-48 bg-white/70" />
-                <p className="max-w-sm font-serif text-2xl font-bold text-gold-900">"כל יולדת ראויה לשבת מלאה"</p>
-                <p className="text-sm text-gold-900">מתנדבות הקהילה מבשלות ומביאות עד הדלת</p>
+                <p className="text-sm text-gold-900">מזל-טוב ৹ אנחנו כאן</p>
             </aside>
             <main className={authMain}>
                 <div className="w-full max-w-xl">
