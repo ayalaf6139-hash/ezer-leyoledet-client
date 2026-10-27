@@ -2,7 +2,7 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 import api, { getErrorMessage } from '../utils/api';
-import logo from '../assets/ezer-logo.svg';
+import logo from '../assets/ezer-logo.png';
 import { authAside, authFrame, authMain, btnGold, eyebrow, form, formGrid, link, pageTitle } from '../utils/styles';
 
 interface RegisterFormData {

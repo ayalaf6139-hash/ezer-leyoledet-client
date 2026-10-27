@@ -1,6 +1,6 @@
 import { Link, Outlet, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
-import logo from '../assets/ezer-logo.svg';
+import logo from '../assets/ezer-logo.png';
 import { btnOutline, goldLine } from '../utils/styles';
 
 export default function Layout() {

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import api, { getErrorMessage } from '../utils/api';
-import logo from '../assets/ezer-logo.svg';
+import logo from '../assets/ezer-logo.png';
 import { authAside, authFrame, authMain, btnGold,  form, link, pageTitle } from '../utils/styles';
 
 interface LoginFormData {

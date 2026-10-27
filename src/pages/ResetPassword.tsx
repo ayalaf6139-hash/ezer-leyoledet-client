@@ -1,7 +1,7 @@
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate, useSearchParams } from 'react-router-dom';
 import api, { getErrorMessage } from '../utils/api';
-import logo from '../assets/ezer-logo.svg';
+import logo from '../assets/ezer-logo.png';
 import { authMain, btnGold, card, form, link, pageTitle } from '../utils/styles';
 
 interface ResetPasswordFormData {

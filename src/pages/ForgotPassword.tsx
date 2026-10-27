@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link } from 'react-router-dom';
 import api, { getErrorMessage } from '../utils/api';
-import logo from '../assets/ezer-logo.svg';
+import logo from '../assets/ezer-logo.png';
 import { authMain, btnGold, form, link, pageTitle } from '../utils/styles';
 
 interface ForgotPasswordFormData {
